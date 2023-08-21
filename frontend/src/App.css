@@ -1,0 +1,280 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items:top;
+  color: #4da3a4;
+  
+  background-image: linear-gradient(79deg, #fbebc5, #fbebc5 48%, #fbebc5);
+}
+
+.right_data mt-6{
+  align-content: end;
+  display: flex;
+}
+
+.Bebo {
+  text-align:center;
+  display: flex;
+  min-height: 100vh;
+  align-items:center;
+  color: #ffffff;  
+}
+
+.form-title{
+  font-size:xx-large;
+}
+
+.form-title1{
+  font-size: x-large;
+  border-radius: 10px;
+
+}
+
+.Halomachu {
+  text-align:center;
+  display: flex;
+  min-height: 100vh;
+  align-items:start;
+  color: #fcffff;
+
+}
+
+.machu{
+  text-align:center;
+  display: flex;
+  min-height: 100vh;
+  align-items:top;
+  color: #ffffff;
+}
+
+
+.right_data mt-6{
+  text-align: center;
+}
+
+
+.right_data mt-4{
+  align-items: start;
+
+}
+
+.auth-form-container1,  .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 10px;
+
+}
+
+.register-form10{
+  padding: 5rem;
+}
+
+.auth-form-container{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 10px;
+
+
+}
+
+
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 1rem 0;
+  padding: 1rem;
+  min-width:60vh;
+  border:none;
+  border-radius: 10px;
+  margin-left: .5rem;
+}
+
+
+button{
+  border:none;
+  background-color: #be3838;
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  max-width: 33vh;
+  min-width: 33vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(244, 251, 251)
+}
+
+
+.signup-image-link1, .signup-image-link {
+  font-size: 16px;
+  background: none;
+  color: #fbfcfc;
+  text-decoration: none;
+}
+
+.signup-image-link3{
+  font-size: 12.369998px;
+  background: none;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.create-home-page-wrapper {
+  background-image: url(./components/1.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-login-page-wrapper {
+  background-image: url(./components/0.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.create-register-page-wrapper {
+  background-image: url(./components/33.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-passmail-page-wrapper {
+  background-image: url(./components/39.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Add these styles to your App.css or a separate CSS file */
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popup-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.popup.success {
+  color: #397b25;
+}
+
+.popup.failure {
+  color: #a83a3a;
+}
+
+.popup h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color:#333
+}
+
+.popup p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.popup button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.popup button:hover {
+  background-color: #555;
+}
+
+
+
+/* Add these styles to your CSS file */
+.login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000; /* Adjust the z-index value to ensure it's above other elements */
+}
+
+.login-popup.success {
+  background-color: #4caf50;
+}
+
+.login-popup.failure {
+  background-color: #f44336;
+}
+
+.login-popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-popup p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.login-popup-close-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.login-popup-close-button:hover {
+  background-color: #555;
+}
+

@@ -1,0 +1,39 @@
+
+
+.tab-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-group button {
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .tab-group button.active {
+    border-bottom: 2px solid black;
+  }
+  
+  .tab-group button:disabled {
+    color: gray;
+    cursor: default;
+  }
+
+  .create-ss-page-wrapper {
+    background-image: url(./bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

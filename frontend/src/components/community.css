@@ -1,0 +1,96 @@
+
+
+.create-community-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .create-community-mini-page {
+    margin: 16px;
+    padding: 16px;
+    background-color: #0dc0e0;
+    border-radius: 10px;
+    width: 600px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .create-community-mini-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+.form-group{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .create-community-mini-page label {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: small;
+  }
+  
+  .create-community-mini-page input[type="text"],
+  .create-community-mini-page textarea {
+    width: 570px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .create-community-mini-page input[type="text"]:focus,
+  .create-community-mini-page textarea:focus {
+    outline: none;
+    width: 570px;
+    border-bottom: 1px solid #0077ff;
+  }
+  
+  .create-community-mini-page button[type="submit"] {
+    background-color: #e400bb;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .create-community-mini-page button[type="submit"]:hover {
+    background-color: #cc0077;
+  }
+  
+  .custom-file-upload {
+    display: block;
+    background-color: #f44336;
+    color: #fff;
+    text-align: center;
+    padding: 6px 12px;
+    border-radius: 5px;
+    max-width: 50px;
+    cursor: pointer;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #bdd32f;
+  }
+  
+  .custom-file-upload:active {
+    background-color: #b71c1c;
+  }
+  
+
+  .create-community-page-wrapper {
+    background-image: url(./bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
